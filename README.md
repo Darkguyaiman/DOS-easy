@@ -75,7 +75,7 @@ Each thread sends one HTTP request and then exits.
 ```txt
 DOS-easy/
 │
-├── dos_easy.py    # Main simulation script
+├── main.py    # Main simulation script
 └── README.md       # Project documentation
 ```
 
