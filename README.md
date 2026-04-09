@@ -1,9 +1,9 @@
 <p align="center">
- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2a6c,100:b21f1f&height=200&section=header&text=DDOS-easy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Educational%20DDoS%20Simulation%20Tool&descAlignY=55&descAlign=50" width="100%" />
+ <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2a6c,100:b21f1f&height=200&section=header&text=DOS-easy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Educational%20DoS%20Simulation%20Tool&descAlignY=55&descAlign=50" width="100%" />
 </p>
 
 <p align="center">
-  <b>Educational DDoS Simulation Tool for Safe & Ethical Testing</b><br>
+  <b>Educational DoS Simulation Tool for Safe & Ethical Testing</b><br>
   <i>Learn. Simulate. Defend.</i>
 </p>
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-**DDOS-easy** is a Python-based project designed to demonstrate Distributed Denial-of-Service (DDoS) attack concepts in a safe, ethical, and educational environment. This tool is intended for students, educators, and researchers to explore how basic traffic overloads can affect services — and how to defend against them — using simulated load from thousands of threads.
+**DOS-easy** is a Python-based project designed to demonstrate Denial-of-Service (DoS) attack concepts in a safe, ethical, and educational environment. This tool is intended for students, educators, and researchers to explore how basic traffic overloads can affect services — and how to defend against them — using simulated load from thousands of threads.
 
 > Disclaimer:  
 > This tool is strictly for educational and authorized research use.  
@@ -48,10 +48,10 @@ Each thread performs **one HTTP request** to the specified URL using Python’s 
 ### Running the Script
 
 ```bash
-python ddos_easy.py
+python dos_easy.py
 ```
 
-Then open `ddos_easy.py` and edit this line:
+Then open `dos_easy.py` and edit this line:
 
 ```python
 url = "YOUR_INTENDED_WEB_URL"
@@ -73,9 +73,9 @@ Each thread sends one HTTP request and then exits.
 ## File Structure
 
 ```txt
-DDOS-easy/
+DOS-easy/
 │
-├── ddos_easy.py    # Main simulation script
+├── dos_easy.py    # Main simulation script
 └── README.md       # Project documentation
 ```
 
