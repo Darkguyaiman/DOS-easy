@@ -48,10 +48,10 @@ Each thread performs **one HTTP request** to the specified URL using Python’s 
 ### Running the Script
 
 ```bash
-python dos_easy.py
+python main.py
 ```
 
-Then open `dos_easy.py` and edit this line:
+Then open `main.py` and edit this line:
 
 ```python
 url = "YOUR_INTENDED_WEB_URL"
